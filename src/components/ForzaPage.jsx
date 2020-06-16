@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 function ForzaPage() {
   return (
     <article className="article">
+      <Helmet>
+        <title>Forza Karting Sochi | Race Taxi</title>
+      </Helmet>
       <h1 className="article__title">Forza Karting Sochi</h1>
       <p className="article__paragraph">
         New open-air Forza Karting is the world-class karting centre opened in

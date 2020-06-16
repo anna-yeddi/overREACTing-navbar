@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 function DriftPage() {
   return (
     <article className="article">
+      <Helmet>
+        <title>Drift School | Race Taxi</title>
+      </Helmet>
       <h1 className="article__title">Drift School</h1>
       <p className="article__paragraph">
         A master class with FIA Intercontinental Drifting Cup runner-up Arkady

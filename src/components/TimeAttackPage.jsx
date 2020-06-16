@@ -1,8 +1,12 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 function TimeAttackPage() {
   return (
     <article className="article">
+      <Helmet>
+        <title>Time Attack Race | Race Taxi</title>
+      </Helmet>
       <h1 className="article__title">​​​​​​Time Attack Race</h1>
       <p className="article__paragraph">
         A Time Attack race is designed for those who love to set records – the
